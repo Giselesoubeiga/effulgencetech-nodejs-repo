@@ -37,7 +37,7 @@ pipeline{
 		stage('Push-image') {
 			//Pushing image to dockerhub
 			steps {
-				sh 'docker push sougi/nodejs-image-effulgencetech:latest'
+				sh 'docker push sougi/effulgencetech-nodejs-image:v1.0'
 			}
 		}
 	}
